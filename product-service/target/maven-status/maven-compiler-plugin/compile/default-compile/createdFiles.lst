@@ -1,0 +1,7 @@
+com\trainingcenter\db\ProductMapper.class
+com\trainingcenter\resources\ProductResource.class
+com\trainingcenter\ProductServiceConfiguration.class
+com\trainingcenter\db\ProductDao.class
+com\trainingcenter\ProductServiceApplication$1.class
+com\trainingcenter\api\Product.class
+com\trainingcenter\ProductServiceApplication.class

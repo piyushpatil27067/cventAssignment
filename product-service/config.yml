@@ -1,0 +1,30 @@
+logging:
+  level: INFO
+  loggers:
+    com.trainingcenter: DEBUG
+
+server:
+  applicationConnectors:
+    - type: http
+      port: 8082
+    - type: http
+      port: 8443
+#      keyStorePath: dropbookmarks.keystore
+#      keyStorePassword: p@ssw0rd
+#      validateCerts: false
+#database:
+#  driverClass: org.h2.Driver
+#  user: sa
+#  password:
+#  url: jdbc:h2:~/test
+#  validationQuery: "SELECT 1"
+
+
+database:
+  driverClass: com.mysql.jdbc.Driver
+  user: root
+  password: root
+  url: jdbc:mysql://localhost:3306/product
+    #validationQuery: "SELECT 1"
+
+
